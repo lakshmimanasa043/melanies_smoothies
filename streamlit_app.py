@@ -44,3 +44,7 @@ if ingredients_list and name_on_order.strip():
             st.error(f'❌ Error placing order: {e}')
 else:
     st.info("👉 Please enter a name and select at least one ingredient.")
+    #new section to display smoothiefroot nutrition information
+    import requests
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+st.text(smoothiefroot_response)
