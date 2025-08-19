@@ -1,8 +1,3 @@
-
-madhu chowdary <chowdarymadhu04@gmail.com>
-16:48 (0 minutes ago)
-to me
-
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
